@@ -1,0 +1,66 @@
+/* common css strt */
+body{
+    margin: 0;
+    font-family:"Playfair Display", serif;
+    font-size:16px ;
+    font-weight:400 ;
+    color:#626262 ;
+    margin: 0;
+}
+/* common css end */
+/* header strt */
+header{
+    padding: 20PX 0;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+.logo{
+    width: 12%;
+    float: left;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width: 65%;
+    float: right;
+    margin-top: 15px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    display: inline-block;
+    margin: 0px 60px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent ;
+    transition: .33s linear;
+    
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262 ;
+}
+/* header end  */
+/* banner strt*/
+.banner{}
+.b_img{}
+.b_img img{
+    width: 100%;
+}
+
+
+
+/* banner end */
