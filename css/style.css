@@ -174,9 +174,9 @@ header{
     font-weight: 400;
     color: #626262;
     cursor: pointer;
-    transition: .33s linear;
+    transition: .44s linear;
   }
-  .lbtn:hover{
+  lbtn: hover{
     background-color: #626262;
     color: white;
   }
